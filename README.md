@@ -4,34 +4,24 @@
 这是一个可以检测在被监测文件目录下，任何文件变动的软件，目前仍有缺陷，存在大规模文件夹下无法将所有文件纳入检测范围的问题
 
 #### 软件架构
-软件架构说明
+软件架构说明：主要使用python中的os.walk来实现文件目录遍历
+使用wxpython完成GUI开发
 
 
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  打开最新版本的文件运行即可，也可进入程序二期封装中打开封装后的exe文件，封装平台为Windows10 64位
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  使用软件前需要先对软件进行初始化设置，转到最后一页，想要快捷体验也可以点击使用默认设置
+2.  设置完成后软件会对检测文件夹进行全文件备份
+3.  待软件初始化完成后即可点击开始检测按钮
 
 #### 参与贡献
 
 1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+2.  感谢蒋硕参与软件开发后的BUG查找与测试
 
 
-#### 特技
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
